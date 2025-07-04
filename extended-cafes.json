@@ -1,0 +1,205 @@
+{
+  "cafes": [
+    {
+      "name": "Obscure Coffee Roasters",
+      "address": "259 Melrose St., Brooklyn, New York",
+      "latitude": 40.7061,
+      "longitude": -73.9389,
+      "snippet": "The first brick-and-mortar cafe from three-year-old Obscure Coffee Roasters is open for business in Brooklyn, New York, offering coffees that shine brightly in the cup.",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/",
+      "imageUrl": "images/obscure-coffee-roasters.jpg",
+      "date": "2025-07-03"
+    },
+    {
+      "name": "HB Gold Bar",
+      "address": "201 Central Ave., St. Petersburg, Florida",
+      "latitude": 27.7706,
+      "longitude": -82.7303,
+      "snippet": "Experimental Hogg Batch Coffee shines in St. Pete at the HB Gold Bar, bringing innovative coffee experiences to Florida's Gulf Coast.",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/01/experimental-hogg-batch-coffee-shines-in-st-pete-at-the-hb-gold-bar/",
+      "imageUrl": "images/hb-gold-bar.jpg",
+      "date": "2025-07-01"
+    },
+    {
+      "name": "WatchHouse Coffee",
+      "address": "405 Lexington Ave., New York City",
+      "latitude": 40.7517,
+      "longitude": -73.9755,
+      "snippet": "The Chrysler Building in New York City, once the world's tallest building and an enduring example of Art Deco, is now home to the second United States location of the UK chain WatchHouse Coffee.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/26/new-yorks-iconic-chrysler-building-now-houses-a-watchhouse/",
+      "imageUrl": "images/watchhouse-coffee.jpg",
+      "date": "2025-06-26"
+    },
+    {
+      "name": "La Venta Café",
+      "address": "1110 Central Ave., Dubuque, Iowa",
+      "latitude": 42.5006,
+      "longitude": -90.6648,
+      "snippet": "La Venta Café completes the farm-to-cup connection from Colombia to Dubuque, bringing authentic Colombian coffee culture to Iowa.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/19/la-venta-cafe-completes-farm-to-cup-connection-from-colombia-to-dubuque/",
+      "imageUrl": "images/la-venta-cafe.jpg",
+      "date": "2025-06-19"
+    },
+    {
+      "name": "Slow Haste Coffee",
+      "address": "4128 N Williams Ave., Portland, Oregon",
+      "latitude": 45.5521,
+      "longitude": -122.6669,
+      "snippet": "Slow Haste Coffee is off to a fast start with a laidback Portland bar, embodying the city's unique coffee culture.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/18/slow-haste-coffee-off-to-fast-start-with-laidback-portland-bar/",
+      "imageUrl": "images/slow-haste-coffee.jpg",
+      "date": "2025-06-18"
+    },
+    {
+      "name": "Per'La Coffee",
+      "address": "8221 W 3rd St., Los Angeles, California",
+      "latitude": 34.0722,
+      "longitude": -118.3687,
+      "snippet": "Turkish hospitality meets specialty coffee at Per'La Coffee Bar, bringing authentic Turkish coffee culture to Los Angeles.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/13/perla-coffee-turkish-hospitality-los-angeles/",
+      "imageUrl": "images/perla-coffee.jpg",
+      "date": "2025-06-13"
+    },
+    {
+      "name": "Community Blend",
+      "address": "5827 Franklin Ave., Minneapolis, Minnesota",
+      "latitude": 44.9778,
+      "longitude": -93.2650,
+      "snippet": "Community Blend opens in Minneapolis with a mission to create inclusive spaces and support local artists through coffee.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/11/community-blend-minneapolis-inclusive-coffee/",
+      "imageUrl": "images/community-blend.jpg",
+      "date": "2025-06-11"
+    },
+    {
+      "name": "Blossom Coffee Roasters",
+      "address": "1369 Haight St., San Francisco, California",
+      "latitude": 37.7703,
+      "longitude": -122.4452,
+      "snippet": "Blossom Coffee Roasters brings precision brewing and floral-forward coffees to San Francisco's Haight-Ashbury neighborhood.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/07/blossom-coffee-roasters-haight-san-francisco/",
+      "imageUrl": "images/blossom-coffee.jpg",
+      "date": "2025-06-07"
+    },
+    {
+      "name": "Tenfold Coffee",
+      "address": "890 Valencia St., San Diego, California",
+      "latitude": 32.7157,
+      "longitude": -117.1611,
+      "snippet": "Tenfold Coffee Company opens its third location in San Diego, continuing its commitment to direct trade and sustainability.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/05/tenfold-coffee-expands-san-diego/",
+      "imageUrl": "images/tenfold-coffee.jpg",
+      "date": "2025-06-05"
+    },
+    {
+      "name": "Copper Horse Coffee",
+      "address": "2808 7th Ave., Birmingham, Alabama",
+      "latitude": 33.5186,
+      "longitude": -86.8104,
+      "snippet": "Birmingham welcomes Copper Horse Coffee, featuring a custom-built Probat roaster and mid-century modern design.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/03/copper-horse-coffee-birmingham-roastery/",
+      "imageUrl": "images/copper-horse-coffee.jpg",
+      "date": "2025-06-03"
+    },
+    {
+      "name": "Ritual Coffee Roasters",
+      "address": "2301 Mission St., Denver, Colorado",
+      "latitude": 39.7392,
+      "longitude": -104.9903,
+      "snippet": "San Francisco's Ritual Coffee Roasters expands to Denver, bringing its signature approach to coffee sourcing and roasting.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/30/ritual-coffee-denver-expansion/",
+      "imageUrl": "images/ritual-coffee-denver.jpg",
+      "date": "2025-05-30"
+    },
+    {
+      "name": "Broadsheet Coffee Roasters",
+      "address": "18 Broad St., Boston, Massachusetts",
+      "latitude": 42.3584,
+      "longitude": -71.0598,
+      "snippet": "Broadsheet Coffee Roasters opens in Boston's Financial District, offering single-origin coffees and seasonal blends.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/28/broadsheet-coffee-boston-financial-district/",
+      "imageUrl": "images/broadsheet-coffee.jpg",
+      "date": "2025-05-28"
+    },
+    {
+      "name": "Counterpart Coffee",
+      "address": "503 Amsterdam Ave., New York City",
+      "latitude": 40.7871,
+      "longitude": -73.9754,
+      "snippet": "Japanese-inspired Counterpart Coffee brings meticulous brewing techniques and minimalist design to the Upper West Side.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/25/counterpart-coffee-japanese-nyc/",
+      "imageUrl": "images/counterpart-coffee.jpg",
+      "date": "2025-05-25"
+    },
+    {
+      "name": "Roseline Coffee",
+      "address": "425 NW 23rd Ave., Portland, Oregon",
+      "latitude": 45.5270,
+      "longitude": -122.6985,
+      "snippet": "Roseline Coffee debuts in Portland's Northwest District with a focus on natural process coffees and botanical pairings.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/22/roseline-coffee-portland-botanical/",
+      "imageUrl": "images/roseline-coffee.jpg",
+      "date": "2025-05-22"
+    },
+    {
+      "name": "Alma Coffee",
+      "address": "340 Pine St., Seattle, Washington",
+      "latitude": 47.6097,
+      "longitude": -122.3377,
+      "snippet": "Farm-to-cup pioneer Alma Coffee opens its first cafe in Seattle, featuring coffees from their own farm in Honduras.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/20/alma-coffee-seattle-farm-to-cup/",
+      "imageUrl": "images/alma-coffee.jpg",
+      "date": "2025-05-20"
+    },
+    {
+      "name": "Fellow Coffee",
+      "address": "900 Division St., Nashville, Tennessee",
+      "latitude": 36.1491,
+      "longitude": -86.7839,
+      "snippet": "Fellow, known for its brewing equipment, opens its first cafe in Nashville featuring a brew bar and product showroom.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/17/fellow-coffee-nashville-flagship/",
+      "imageUrl": "images/fellow-coffee.jpg",
+      "date": "2025-05-17"
+    },
+    {
+      "name": "Andante Coffee Roasters",
+      "address": "6087 Sunset Blvd., Los Angeles, California",
+      "latitude": 34.0983,
+      "longitude": -118.3214,
+      "snippet": "Classical music meets coffee culture at Andante Coffee Roasters, where each blend is inspired by musical compositions.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/15/andante-coffee-music-los-angeles/",
+      "imageUrl": "images/andante-coffee.jpg",
+      "date": "2025-05-15"
+    },
+    {
+      "name": "Daybreak Coffee Roasters",
+      "address": "459 S Main St., Salt Lake City, Utah",
+      "latitude": 40.7631,
+      "longitude": -111.8910,
+      "snippet": "Daybreak Coffee Roasters brings light roasts and Scandinavian design to downtown Salt Lake City.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/12/daybreak-coffee-salt-lake-city/",
+      "imageUrl": "images/daybreak-coffee.jpg",
+      "date": "2025-05-12"
+    },
+    {
+      "name": "Merchant Coffee",
+      "address": "2700 N Milwaukee Ave., Chicago, Illinois",
+      "latitude": 41.9306,
+      "longitude": -87.7117,
+      "snippet": "Merchant Coffee opens in Chicago's Logan Square with a focus on transparent pricing and farmer partnerships.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/10/merchant-coffee-chicago-transparency/",
+      "imageUrl": "images/merchant-coffee.jpg",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "Horizon Line Coffee",
+      "address": "1415 18th St., Des Moines, Iowa",
+      "latitude": 41.5868,
+      "longitude": -93.6250,
+      "snippet": "Iowa roaster Horizon Line Coffee opens its flagship cafe in Des Moines, showcasing coffees from emerging origins.",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/08/horizon-line-coffee-des-moines/",
+      "imageUrl": "images/horizon-line-coffee.jpg",
+      "date": "2025-05-08"
+    }
+  ],
+  "lastUpdated": "2025-07-04"
+}

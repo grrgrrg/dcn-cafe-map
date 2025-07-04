@@ -1,0 +1,105 @@
+{
+  "cafes": [
+    {
+      "name": "Obscure Coffee Roasters",
+      "address": "259 Melrose St., Brooklyn, New York",
+      "latitude": 40.7061,
+      "longitude": -73.9389,
+      "snippet": "The first brick-and-mortar cafe from three-year-old Obscure Coffee Roasters is open for business in Brooklyn, New York, offering coffees that shine brightly in the cup.",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/",
+      "imageUrl": "images/obscure-coffee-roasters.jpg",
+      "date": "2025-07-03"
+    },
+    {
+      "name": "HB Gold Bar",
+      "address": "201 Central Ave., St. Petersburg, Florida",
+      "latitude": 27.7706,
+      "longitude": -82.7303,
+      "snippet": "Experimental Hogg Batch Coffee shines in St. Pete at the HB Gold Bar, bringing innovative coffee experiences to Florida's Gulf Coast.",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/01/experimental-hogg-batch-coffee-shines-in-st-pete-at-the-hb-gold-bar/",
+      "imageUrl": "images/hb-gold-bar.jpg",
+      "date": "2025-07-01"
+    },
+    {
+      "name": "WatchHouse Coffee",
+      "address": "405 Lexington Ave., New York City",
+      "latitude": 40.7517,
+      "longitude": -73.9755,
+      "snippet": "The Chrysler Building in New York City, once the world's tallest building and an enduring example of Art Deco, is now home to the second United States location of the UK chain WatchHouse Coffee.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/26/new-yorks-iconic-chrysler-building-now-houses-a-watchhouse/",
+      "imageUrl": "images/watchhouse-coffee.jpg",
+      "date": "2025-06-26"
+    },
+    {
+      "name": "La Venta Café",
+      "address": "1110 Central Ave., Dubuque, Iowa",
+      "latitude": 42.5006,
+      "longitude": -90.6648,
+      "snippet": "La Venta Café completes the farm-to-cup connection from Colombia to Dubuque, bringing authentic Colombian coffee culture to Iowa.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/19/la-venta-cafe-completes-farm-to-cup-connection-from-colombia-to-dubuque/",
+      "imageUrl": "images/la-venta-cafe.jpg",
+      "date": "2025-06-19"
+    },
+    {
+      "name": "Slow Haste Coffee",
+      "address": "4128 N Williams Ave., Portland, Oregon",
+      "latitude": 45.5521,
+      "longitude": -122.6669,
+      "snippet": "Slow Haste Coffee is off to a fast start with a laidback Portland bar, embodying the city's unique coffee culture.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/18/slow-haste-coffee-off-to-fast-start-with-laidback-portland-bar/",
+      "imageUrl": "images/slow-haste-coffee.jpg",
+      "date": "2025-06-18"
+    },
+    {
+      "name": "Union Market",
+      "address": "2121 Pearl St., Austin, Texas",
+      "latitude": 30.2849,
+      "longitude": -97.7481,
+      "snippet": "The Austin original Union Market opens its ninth location, continuing to serve the community with locally roasted coffee and fresh food offerings.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/17/union-market-opens-ninth-austin-location/",
+      "imageUrl": "images/union-market.jpg",
+      "date": "2025-06-17"
+    },
+    {
+      "name": "Mad Cap Coffee",
+      "address": "10368 W Pico Blvd., Los Angeles, California",
+      "latitude": 34.0354,
+      "longitude": -118.4187,
+      "snippet": "Michigan-based Mad Cap Coffee Company brings its specialty coffee expertise to Los Angeles with its first West Coast location.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/14/mad-cap-coffee-arrives-in-los-angeles/",
+      "imageUrl": "images/mad-cap-coffee.jpg",
+      "date": "2025-06-14"
+    },
+    {
+      "name": "Prototype Coffee",
+      "address": "120 Lincoln Ave., Santa Fe, New Mexico",
+      "latitude": 35.6870,
+      "longitude": -105.9378,
+      "snippet": "Prototype Coffee opens in Santa Fe's Railyard District, featuring a state-of-the-art roastery and innovative brewing methods.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/12/prototype-coffee-debuts-in-santa-fe/",
+      "imageUrl": "images/prototype-coffee.jpg",
+      "date": "2025-06-12"
+    },
+    {
+      "name": "Comet Coffee",
+      "address": "5811 N Main St., Ann Arbor, Michigan",
+      "latitude": 42.3062,
+      "longitude": -83.7454,
+      "snippet": "Ann Arbor welcomes Comet Coffee, a new roastery cafe focusing on direct trade relationships and experimental processing methods.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/10/comet-coffee-lands-in-ann-arbor/",
+      "imageUrl": "images/comet-coffee.jpg",
+      "date": "2025-06-10"
+    },
+    {
+      "name": "Steadfast Coffee",
+      "address": "1210 SE Grand Ave., Nashville, Tennessee",
+      "latitude": 36.1570,
+      "longitude": -86.7656,
+      "snippet": "Nashville's Steadfast Coffee expands with a new roastery and training lab, continuing its commitment to coffee education and quality.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/07/steadfast-coffee-opens-nashville-roastery/",
+      "imageUrl": "images/steadfast-coffee.jpg",
+      "date": "2025-06-07"
+    }
+  ],
+  "lastUpdated": "2025-07-04"
+}

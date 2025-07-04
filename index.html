@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Coffee News - Find a Cafe</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Fjalla+One&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://dailycoffeenews.com/wp-content/themes/dailycoffeenews/img/Daily-Coffee-News-Logo.png" alt="Daily Coffee News" class="logo">
+            <h1>Find a Cafe</h1>
+            <p>Explore the cafes covered on Daily Coffee News</p>
+        </header>
+        
+        <div class="controls">
+            <div class="search-filters">
+                <input type="text" id="searchInput" placeholder="Search cafes or locations..." class="search-input">
+                <select id="stateFilter" class="filter-select">
+                    <option value="">All States</option>
+                </select>
+                <button id="clearFilters" class="btn btn-secondary">Clear</button>
+            </div>
+            <div class="stats">
+                <span id="cafeCount">Loading cafes...</span>
+                <button id="refreshData" class="btn">Refresh Data</button>
+            </div>
+        </div>
+        
+        <div class="pagination-controls" id="paginationTop" style="display: none;">
+            <button id="prevPage" class="btn btn-secondary" disabled>← Previous</button>
+            <span id="pageInfo">Page 1 of 1</span>
+            <button id="nextPage" class="btn btn-secondary" disabled>Next →</button>
+            <select id="pageSize" class="page-size-select">
+                <option value="25">25 per page</option>
+                <option value="50" selected>50 per page</option>
+                <option value="100">100 per page</option>
+                <option value="all">Show all</option>
+            </select>
+        </div>
+        
+        <div id="map"></div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading cafe locations...</p>
+        </div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Map Script -->
+    <script src="map.js"></script>
+</body>
+</html>

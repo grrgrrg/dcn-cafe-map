@@ -1,0 +1,152 @@
+DCN CAFE DATA EXTRACTION WORKSHEET
+=====================================
+
+INSTRUCTIONS:
+1. Visit each URL below
+2. Extract the cafe name, address, main image URL, and a good quote
+3. Add the data to data/all-cafes.json
+4. Run: npm run geocode
+
+ARTICLES TO PROCESS:
+=====================
+
+1. https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-07-03
+
+2. https://dailycoffeenews.com/2025/07/01/experimental-hogg-batch-coffee-shines-in-st-pete-at-the-hb-gold-bar/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-07-01
+
+3. https://dailycoffeenews.com/2025/06/26/new-yorks-iconic-chrysler-building-now-houses-a-watchhouse/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-06-26
+
+4. https://dailycoffeenews.com/2025/06/18/slow-haste-coffee-off-to-fast-start-with-laidback-portland-bar/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-06-18
+
+5. https://dailycoffeenews.com/2025/06/05/take-two-does-it-again-with-coffee-and-doughnuts-in-fort-myers-florida/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-06-05
+
+6. https://dailycoffeenews.com/2025/05/27/indianas-ghost-coffee-roaster-in-high-spirits-with-flagship-opening/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-05-27
+
+7. https://dailycoffeenews.com/2025/05/15/in-birmingham-whammy-coffee-opens-with-big-flavors-and-tiny-dinosaurs/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-05-15
+
+8. https://dailycoffeenews.com/2025/05/14/rowan-coffee-is-flowing-in-west-asheville-with-new-roastery-cafe/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-05-14
+
+9. https://dailycoffeenews.com/2025/05/13/paradeco-coffee-sets-sail-with-second-cafe-in-st-pete/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-05-13
+
+10. https://dailycoffeenews.com/2025/04/21/coffee-comes-true-in-houston-at-the-little-dreamer-cafe/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-04-21
+
+11. https://dailycoffeenews.com/2025/04/15/colombias-juan-valdez-plans-to-open-16-more-us-coffee-shops/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-04-15
+
+12. https://dailycoffeenews.com/2025/04/08/forum-coffee-opens-in-downtown-hoboken-plans-8-10-more-shops/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-04-08
+
+13. https://dailycoffeenews.com/2024/07/18/three-questions-with-coffee-and-beverage-expert-piper-jones/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2024-07-18
+
+14. https://dailycoffeenews.com/2024/07/17/pinecone-beats-the-heat-with-new-siberian-grinder/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2024-07-17
+
+15. https://dailycoffeenews.com/2024/07/16/nestle-targets-brazil-with-new-arabica-variety-called-star-4/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2024-07-16
+
+16. https://dailycoffeenews.com/2024/07/12/brazilian-pilot-and-illinois-coffee-entrepreneur-juliana-turchetti-dies-fighting-fire/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2024-07-12
+
+17. https://dailycoffeenews.com/2025/04/07/driftaway-coffee-anchors-tasting-bar-inside-its-brooklyn-roastery/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-04-07
+
+18. https://dailycoffeenews.com/2025/04/03/anticonquista-cafe-opens-with-splashes-of-color-and-coffee-in-chicago/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-04-03
+
+19. https://dailycoffeenews.com/2025/03/31/for-five-coffee-roasters-opens-a-big-one-for-atlanta/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-03-31
+
+20. https://dailycoffeenews.com/2025/03/27/hutsul-coffee-factory-carries-ukrainian-quality-to-london-ontario/
+   Name: ________________________
+   Address: _____________________
+   Image URL: ___________________
+   Quote: _______________________
+   Date: 2025-03-27
+

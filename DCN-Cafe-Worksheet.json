@@ -1,0 +1,230 @@
+{
+  "instructions": {
+    "overview": "This worksheet helps you systematically extract cafe data from DCN articles",
+    "steps": [
+      "1. Visit each URL below",
+      "2. Fill in the cafe details",
+      "3. Run the geocoding script to add coordinates",
+      "4. Your map will update automatically"
+    ],
+    "tips": [
+      "Look for the main cafe image (not logos or small pics)",
+      "Find the street address in the article text",
+      "Pick a good quote that represents the cafe's mission",
+      "Skip articles that aren't about new cafe openings"
+    ]
+  },
+  "template": [
+    {
+      "url": "https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/",
+      "order": 1,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-07-03",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/07/01/experimental-hogg-batch-coffee-shines-in-st-pete-at-the-hb-gold-bar/",
+      "order": 2,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-07-01",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/01/experimental-hogg-batch-coffee-shines-in-st-pete-at-the-hb-gold-bar/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/06/26/new-yorks-iconic-chrysler-building-now-houses-a-watchhouse/",
+      "order": 3,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-06-26",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/26/new-yorks-iconic-chrysler-building-now-houses-a-watchhouse/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/06/18/slow-haste-coffee-off-to-fast-start-with-laidback-portland-bar/",
+      "order": 4,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-06-18",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/18/slow-haste-coffee-off-to-fast-start-with-laidback-portland-bar/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/06/05/take-two-does-it-again-with-coffee-and-doughnuts-in-fort-myers-florida/",
+      "order": 5,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-06-05",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/05/take-two-does-it-again-with-coffee-and-doughnuts-in-fort-myers-florida/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/05/27/indianas-ghost-coffee-roaster-in-high-spirits-with-flagship-opening/",
+      "order": 6,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-05-27",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/27/indianas-ghost-coffee-roaster-in-high-spirits-with-flagship-opening/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/05/15/in-birmingham-whammy-coffee-opens-with-big-flavors-and-tiny-dinosaurs/",
+      "order": 7,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-05-15",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/15/in-birmingham-whammy-coffee-opens-with-big-flavors-and-tiny-dinosaurs/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/05/14/rowan-coffee-is-flowing-in-west-asheville-with-new-roastery-cafe/",
+      "order": 8,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-05-14",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/14/rowan-coffee-is-flowing-in-west-asheville-with-new-roastery-cafe/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/05/13/paradeco-coffee-sets-sail-with-second-cafe-in-st-pete/",
+      "order": 9,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-05-13",
+      "articleUrl": "https://dailycoffeenews.com/2025/05/13/paradeco-coffee-sets-sail-with-second-cafe-in-st-pete/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/04/21/coffee-comes-true-in-houston-at-the-little-dreamer-cafe/",
+      "order": 10,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-04-21",
+      "articleUrl": "https://dailycoffeenews.com/2025/04/21/coffee-comes-true-in-houston-at-the-little-dreamer-cafe/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/04/15/colombias-juan-valdez-plans-to-open-16-more-us-coffee-shops/",
+      "order": 11,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-04-15",
+      "articleUrl": "https://dailycoffeenews.com/2025/04/15/colombias-juan-valdez-plans-to-open-16-more-us-coffee-shops/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/04/08/forum-coffee-opens-in-downtown-hoboken-plans-8-10-more-shops/",
+      "order": 12,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-04-08",
+      "articleUrl": "https://dailycoffeenews.com/2025/04/08/forum-coffee-opens-in-downtown-hoboken-plans-8-10-more-shops/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2024/07/18/three-questions-with-coffee-and-beverage-expert-piper-jones/",
+      "order": 13,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2024-07-18",
+      "articleUrl": "https://dailycoffeenews.com/2024/07/18/three-questions-with-coffee-and-beverage-expert-piper-jones/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2024/07/17/pinecone-beats-the-heat-with-new-siberian-grinder/",
+      "order": 14,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2024-07-17",
+      "articleUrl": "https://dailycoffeenews.com/2024/07/17/pinecone-beats-the-heat-with-new-siberian-grinder/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2024/07/16/nestle-targets-brazil-with-new-arabica-variety-called-star-4/",
+      "order": 15,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2024-07-16",
+      "articleUrl": "https://dailycoffeenews.com/2024/07/16/nestle-targets-brazil-with-new-arabica-variety-called-star-4/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2024/07/12/brazilian-pilot-and-illinois-coffee-entrepreneur-juliana-turchetti-dies-fighting-fire/",
+      "order": 16,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2024-07-12",
+      "articleUrl": "https://dailycoffeenews.com/2024/07/12/brazilian-pilot-and-illinois-coffee-entrepreneur-juliana-turchetti-dies-fighting-fire/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/04/07/driftaway-coffee-anchors-tasting-bar-inside-its-brooklyn-roastery/",
+      "order": 17,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-04-07",
+      "articleUrl": "https://dailycoffeenews.com/2025/04/07/driftaway-coffee-anchors-tasting-bar-inside-its-brooklyn-roastery/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/04/03/anticonquista-cafe-opens-with-splashes-of-color-and-coffee-in-chicago/",
+      "order": 18,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-04-03",
+      "articleUrl": "https://dailycoffeenews.com/2025/04/03/anticonquista-cafe-opens-with-splashes-of-color-and-coffee-in-chicago/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/03/31/for-five-coffee-roasters-opens-a-big-one-for-atlanta/",
+      "order": 19,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-03-31",
+      "articleUrl": "https://dailycoffeenews.com/2025/03/31/for-five-coffee-roasters-opens-a-big-one-for-atlanta/"
+    },
+    {
+      "url": "https://dailycoffeenews.com/2025/03/27/hutsul-coffee-factory-carries-ukrainian-quality-to-london-ontario/",
+      "order": 20,
+      "name": "",
+      "address": "",
+      "imageUrl": "",
+      "snippet": "",
+      "date": "2025-03-27",
+      "articleUrl": "https://dailycoffeenews.com/2025/03/27/hutsul-coffee-factory-carries-ukrainian-quality-to-london-ontario/"
+    }
+  ],
+  "completed_examples": [
+    {
+      "url": "https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/",
+      "name": "Obscure Coffee Roasters",
+      "address": "259 Melrose St., Brooklyn, New York",
+      "imageUrl": "https://dailycoffeenews.com/wp-content/uploads/2025/07/Obscure-Coffee-Roasters-Bushwick-Brooklyn-Norbert.jpg",
+      "snippet": "We would love for this to be a space for community that is open to everyone, no matter how involved you are with coffee or how knowledgeable you are about it.",
+      "date": "2025-07-03",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/"
+    }
+  ]
+}

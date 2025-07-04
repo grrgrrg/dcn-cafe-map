@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: dcn-cafe-map
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: cache
+      mountPath: /opt/render/project/src/cache
+      sizeGB: 1

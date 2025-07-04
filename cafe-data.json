@@ -1,0 +1,55 @@
+{
+  "cafes": [
+    {
+      "name": "Obscure Coffee Roasters",
+      "address": "259 Melrose St., Brooklyn, New York",
+      "latitude": 40.7061,
+      "longitude": -73.9389,
+      "snippet": "The first brick-and-mortar cafe from three-year-old Obscure Coffee Roasters is open for business in Brooklyn, New York, offering coffees that shine brightly in the cup.",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/03/obscure-coffee-roasters-shines-a-light-on-puerto-rican-coffee-in-brooklyn/",
+      "imageUrl": "https://dailycoffeenews.com/wp-content/uploads/2025/07/Obscure-Coffee-Roasters-Brooklyn-1.jpg",
+      "date": "2025-07-03"
+    },
+    {
+      "name": "HB Gold Bar",
+      "address": "201 Central Ave., St. Petersburg, Florida",
+      "latitude": 27.7706,
+      "longitude": -82.7303,
+      "snippet": "Experimental Hogg Batch Coffee shines in St. Pete at the HB Gold Bar, bringing innovative coffee experiences to Florida's Gulf Coast.",
+      "articleUrl": "https://dailycoffeenews.com/2025/07/01/experimental-hogg-batch-coffee-shines-in-st-pete-at-the-hb-gold-bar/",
+      "imageUrl": "https://dailycoffeenews.com/wp-content/uploads/2025/07/HB-Gold-Bar-1.jpg",
+      "date": "2025-07-01"
+    },
+    {
+      "name": "WatchHouse Coffee",
+      "address": "405 Lexington Ave., New York City",
+      "latitude": 40.7517,
+      "longitude": -73.9755,
+      "snippet": "The Chrysler Building in New York City, once the world's tallest building and an enduring example of Art Deco, is now home to the second United States location of the UK chain WatchHouse Coffee.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/26/new-yorks-iconic-chrysler-building-now-houses-a-watchhouse/",
+      "imageUrl": "https://dailycoffeenews.com/wp-content/uploads/2025/06/WatchHouse-Chrysler-1.jpg",
+      "date": "2025-06-26"
+    },
+    {
+      "name": "La Venta Café",
+      "address": "1110 Central Ave., Dubuque, Iowa",
+      "latitude": 42.5006,
+      "longitude": -90.6648,
+      "snippet": "La Venta Café completes the farm-to-cup connection from Colombia to Dubuque, bringing authentic Colombian coffee culture to Iowa.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/19/la-venta-cafe-completes-farm-to-cup-connection-from-colombia-to-dubuque/",
+      "imageUrl": "https://dailycoffeenews.com/wp-content/uploads/2025/06/La-Venta-Cafe-1.jpg",
+      "date": "2025-06-19"
+    },
+    {
+      "name": "Slow Haste Coffee",
+      "address": "4128 N Williams Ave., Portland, Oregon",
+      "latitude": 45.5521,
+      "longitude": -122.6669,
+      "snippet": "Slow Haste Coffee is off to a fast start with a laidback Portland bar, embodying the city's unique coffee culture.",
+      "articleUrl": "https://dailycoffeenews.com/2025/06/18/slow-haste-coffee-off-to-fast-start-with-laidback-portland-bar/",
+      "imageUrl": "https://dailycoffeenews.com/wp-content/uploads/2025/06/Slow-Haste-1.jpg",
+      "date": "2025-06-18"
+    }
+  ],
+  "lastUpdated": "2025-07-04"
+}
