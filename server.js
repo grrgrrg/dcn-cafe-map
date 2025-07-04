@@ -2,10 +2,18 @@ const express = require('express');
 const axios = require('axios');
 const fs = require('fs-extra');
 const path = require('path');
-const sharp = require('sharp');
 const cors = require('cors');
 const NodeCache = require('node-cache');
 const crypto = require('crypto');
+
+// Try to load Sharp, but make it optional
+let sharp;
+try {
+    sharp = require('sharp');
+    console.log('📸 Sharp image processing available');
+} catch (error) {
+    console.log('⚠️  Sharp not available, using basic image proxy');
+}
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -65,50 +73,61 @@ app.get('/api/image-proxy', async (req, res) => {
         res.setHeader('Cache-Control', 'public, max-age=86400');
         res.setHeader('Access-Control-Allow-Origin', '*');
         
-        // Process and stream the image
-        const transformer = sharp()
-            .jpeg({ quality: 85, progressive: true })
-            .resize(400, 300, { 
-                fit: 'cover',
-                position: 'center'
-            })
-            .on('error', (err) => {
-                console.error('Sharp processing error:', err);
-                // If Sharp fails, try to serve original image
-                response.data.pipe(res);
-            });
-        
-        // Save to cache in the background
-        const cacheStream = fs.createWriteStream(cachedPath);
-        response.data.pipe(sharp().jpeg({ quality: 85 }).resize(400, 300, { fit: 'cover' })).pipe(cacheStream);
-        
-        // Stream to response
-        response.data.pipe(transformer).pipe(res);
+        if (sharp) {
+            // Process and stream the image with Sharp
+            const transformer = sharp()
+                .jpeg({ quality: 85, progressive: true })
+                .resize(400, 300, { 
+                    fit: 'cover',
+                    position: 'center'
+                })
+                .on('error', (err) => {
+                    console.error('Sharp processing error:', err);
+                    // If Sharp fails, try to serve original image
+                    response.data.pipe(res);
+                });
+            
+            // Save to cache in the background
+            const cacheStream = fs.createWriteStream(cachedPath);
+            response.data.pipe(sharp().jpeg({ quality: 85 }).resize(400, 300, { fit: 'cover' })).pipe(cacheStream);
+            
+            // Stream to response
+            response.data.pipe(transformer).pipe(res);
+        } else {
+            // Basic proxy without processing
+            const cacheStream = fs.createWriteStream(cachedPath);
+            response.data.pipe(cacheStream);
+            response.data.pipe(res);
+        }
         
     } catch (error) {
         console.error('Image proxy error:', error.message);
         
         // Try to serve a simple placeholder
-        try {
-            // Create a simple colored rectangle as placeholder
-            const placeholder = await sharp({
-                create: {
-                    width: 400,
-                    height: 300,
-                    channels: 3,
-                    background: { r: 240, g: 240, b: 240 }
-                }
-            })
-            .png()
-            .toBuffer();
-            
-            res.setHeader('Content-Type', 'image/png');
-            res.setHeader('Cache-Control', 'public, max-age=3600');
-            res.send(placeholder);
-            
-        } catch (placeholderError) {
-            console.error('Placeholder creation failed:', placeholderError);
-            res.status(404).json({ error: 'Image not found and placeholder failed' });
+        if (sharp) {
+            try {
+                // Create a simple colored rectangle as placeholder
+                const placeholder = await sharp({
+                    create: {
+                        width: 400,
+                        height: 300,
+                        channels: 3,
+                        background: { r: 240, g: 240, b: 240 }
+                    }
+                })
+                .png()
+                .toBuffer();
+                
+                res.setHeader('Content-Type', 'image/png');
+                res.setHeader('Cache-Control', 'public, max-age=3600');
+                res.send(placeholder);
+                
+            } catch (placeholderError) {
+                console.error('Placeholder creation failed:', placeholderError);
+                res.status(404).json({ error: 'Image not found' });
+            }
+        } else {
+            res.status(404).json({ error: 'Image not found' });
         }
     }
 });
