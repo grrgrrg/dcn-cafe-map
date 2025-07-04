@@ -26,9 +26,13 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('.'));
 
-// Ensure directories exist
-fs.ensureDirSync('./images');
-fs.ensureDirSync('./cache');
+// Ensure directories exist (only if writable)
+try {
+    fs.ensureDirSync('./images');
+    fs.ensureDirSync('./cache');
+} catch (error) {
+    console.log('⚠️ Cache directories not writable, using memory cache only');
+}
 
 // Image proxy endpoint - this solves CORS issues
 app.get('/api/image-proxy', async (req, res) => {
@@ -95,8 +99,12 @@ app.get('/api/image-proxy', async (req, res) => {
             response.data.pipe(transformer).pipe(res);
         } else {
             // Basic proxy without processing
-            const cacheStream = fs.createWriteStream(cachedPath);
-            response.data.pipe(cacheStream);
+            try {
+                const cacheStream = fs.createWriteStream(cachedPath);
+                response.data.pipe(cacheStream);
+            } catch (cacheError) {
+                console.log('Cache write failed, serving direct stream');
+            }
             response.data.pipe(res);
         }
         
@@ -181,7 +189,16 @@ app.get('/api/cafes', async (req, res) => {
 
 // Health check
 app.get('/api/health', (req, res) => {
-    res.json({ status: 'ok', timestamp: new Date().toISOString() });
+    res.json({ 
+        status: 'ok', 
+        timestamp: new Date().toISOString(),
+        env: process.env.NODE_ENV || 'development'
+    });
+});
+
+// Simple test route
+app.get('/test', (req, res) => {
+    res.send('Server is working! Modern DCN Cafe Map is ready.');
 });
 
 app.listen(PORT, () => {
