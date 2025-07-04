@@ -6,7 +6,7 @@
     <title>Daily Coffee News - Find a Cafe</title>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Fjalla+One&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -17,38 +17,52 @@
 <body>
     <div class="container">
         <header>
-            <img src="https://dailycoffeenews.com/wp-content/themes/dailycoffeenews/img/Daily-Coffee-News-Logo.png" alt="Daily Coffee News" class="logo">
-            <h1>Find a Cafe</h1>
-            <p>Explore the cafes covered on Daily Coffee News</p>
+            <div class="content">
+                <img src="https://dailycoffeenews.com/wp-content/themes/dailycoffeenews/img/Daily-Coffee-News-Logo.png" alt="Daily Coffee News" class="logo">
+                <h1>Find a Cafe</h1>
+                <p>Explore the cafes covered on Daily Coffee News</p>
+            </div>
         </header>
         
         <div class="controls">
-            <div class="search-filters">
-                <input type="text" id="searchInput" placeholder="Search cafes or locations..." class="search-input">
-                <select id="stateFilter" class="filter-select">
-                    <option value="">All States</option>
-                </select>
-                <button id="clearFilters" class="btn btn-secondary">Clear</button>
-            </div>
-            <div class="stats">
-                <span id="cafeCount">Loading cafes...</span>
-                <button id="refreshData" class="btn">Refresh Data</button>
+            <div class="controls-header">
+                <div class="search-filters">
+                    <div class="search-group">
+                        <input type="text" id="searchInput" placeholder="Search cafes or locations..." class="search-input">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    <select id="stateFilter" class="filter-select">
+                        <option value="">All States</option>
+                    </select>
+                    <button id="clearFilters" class="btn btn-secondary">Clear</button>
+                </div>
+                <div class="stats">
+                    <span id="cafeCount">Loading cafes...</span>
+                    <span class="stats-badge" id="activeFilters" style="display: none;">Filtered</span>
+                    <button id="refreshData" class="btn btn-primary">Refresh Data</button>
+                </div>
             </div>
         </div>
         
         <div class="pagination-controls" id="paginationTop" style="display: none;">
-            <button id="prevPage" class="btn btn-secondary" disabled>← Previous</button>
-            <span id="pageInfo">Page 1 of 1</span>
-            <button id="nextPage" class="btn btn-secondary" disabled>Next →</button>
-            <select id="pageSize" class="page-size-select">
-                <option value="25">25 per page</option>
-                <option value="50" selected>50 per page</option>
-                <option value="100">100 per page</option>
-                <option value="all">Show all</option>
-            </select>
+            <div class="pagination-info">
+                <span id="pageInfo">Page 1 of 1</span>
+                <select id="pageSize" class="page-size-select">
+                    <option value="25">25 per page</option>
+                    <option value="50" selected>50 per page</option>
+                    <option value="100">100 per page</option>
+                    <option value="all">Show all</option>
+                </select>
+            </div>
+            <div style="display: flex; gap: var(--space-sm);">
+                <button id="prevPage" class="btn btn-secondary" disabled>← Previous</button>
+                <button id="nextPage" class="btn btn-secondary" disabled>Next →</button>
+            </div>
         </div>
         
-        <div id="map"></div>
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
         
         <div class="loading" id="loading">
             <div class="spinner"></div>

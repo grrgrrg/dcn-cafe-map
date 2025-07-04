@@ -188,12 +188,14 @@ class DCNCafeMap {
         return `
             <div class="cafe-popup">
                 ${imageHtml}
-                <h3>${cafe.name}</h3>
-                <p class="address">${cafe.address}</p>
-                <blockquote class="snippet">"${cafe.snippet}"</blockquote>
-                <div class="popup-footer">
-                    <a href="${cafe.articleUrl}" target="_blank" class="read-more">Read full article →</a>
-                    <span class="date">${this.formatDate(cafe.date)}</span>
+                <div class="content">
+                    <h3>${cafe.name}</h3>
+                    <p class="address">${cafe.address}</p>
+                    <blockquote class="snippet">${cafe.snippet}</blockquote>
+                    <div class="popup-footer">
+                        <a href="${cafe.articleUrl}" target="_blank" class="read-more">Read full article</a>
+                        <span class="date">${this.formatDate(cafe.date)}</span>
+                    </div>
                 </div>
             </div>
         `;
